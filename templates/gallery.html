@@ -6,11 +6,17 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gallerypage</title>
+    {%  load static %}
+
+    <link rel="stylesheet" href="{% static 'css/gallery.css' %}">
 </head>
 <body>
 <h1>Available Products</h1>
 <p><span><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae delectus dignissimos earum error, impedit incidunt inventore iusto, laudantium magnam molestiae nulla, numquam omnis repudiandae sed sint tempora tenetur vero.</span><span>Alias aliquam autem delectus fugiat impedit in inventore, laudantium nam numquam odit officiis repellat, sapiente sunt? Commodi ducimus ea, et ipsa quisquam reiciendis? Accusamus asperiores eos libero quae quaerat repellendus.</span><span>Adipisci eaque, earum eum eveniet fugiat ipsa ipsum iste iusto laboriosam magni minima minus non numquam officia officiis omnis quae quos sapiente sed voluptatem! Dolorum et laudantium porro quam sit?</span></span></p>
 
+<img src="{%  static 'assets/bike2.jpg' %}" alt="">
+<img src="{%  static 'assets/bike1.jpg' %}" alt="">
+<img src="{%  static 'assets/bike3.jpg' %}" alt="">
 
 </body>
 </html>

@@ -6,12 +6,27 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homepage</title>
+    {% load static %}
+    <style>
+
+        h1{
+            text-align: center;
+            color: aqua;
+
+
+        }
+        img{height: 600px;
+            width:100%;
+
+        }
+    </style>
 </head>
 <body>
-<h1>WELCOME TO JIJIMART</h1>
+<h1>WELCOME TO JIJICART</h1>
 <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum eius et id incidunt iste labore nam nihil nulla officiis omnis possimus quaerat, quas quasi quia? Amet enim nam odio.</P>
 <p><span><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam, delectus, deserunt distinctio esse eveniet facilis minus possimus quas quia tenetur ut veniam voluptate? Architecto explicabo facilis neque repellat? Ducimus!</span><span>Aperiam assumenda atque delectus deserunt, dignissimos dolor dolorem ea eos facere inventore ipsum iusto laboriosam maxime minus modi molestias odit possimus repellat sint tempora tempore tenetur voluptates! Assumenda, at et.</span><span>A dolorum eaque minima nam quae quasi sint! Atque dolor ducimus ea eius fugiat, id labore laboriosam maxime minus nesciunt omnis quaerat quasi quisquam quod recusandae repudiandae rerum saepe tenetur.</span></span></p>
 
+<img src="{% static 'assets/bike2.jpg' %}" alt="">
 <button>shop now</button>
 </body>
 </html>
