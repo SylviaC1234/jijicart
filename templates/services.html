@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Servicespage</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script src = "{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+
+
+</head>
+<body>
+<h1 class = "text-center text-danger">Our Services</h1>
+
+<a href="{% url 'index' %}" target="_blank">Visit Home</a>
+<a href="{% url 'gallery' %}" target="_blank">Our products</a>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium ad aspernatur at, eius error excepturi expedita facere illo laborum neque quae quos sit sunt unde? Beatae delectus laborum vel.</span><span>Aliquid aperiam at consectetur cupiditate debitis dolore doloribus est harum ipsam labore minima, necessitatibus nemo nesciunt nisi, nulla numquam, officiis quas quibusdam quis quos ratione repellendus reprehenderit sint sit tempore.</span><span>Assumenda ea eum inventore laboriosam necessitatibus? At cupiditate doloremque eius esse fugiat fugit inventore ipsa itaque labore laboriosam libero nesciunt numquam, officia optio perspiciatis ratione reiciendis repellat similique tempore veritatis.</span><span>Accusamus asperiores, autem debitis doloremque dolorum est eum eveniet facere in inventore laudantium maiores modi molestias nam necessitatibus nulla numquam odit officia provident quibusdam rem repellendus saepe tempore totam vitae!</span></p>
+
+<button class="btn btn-outline-danger btn-danger text-primary">Get Started</button>
+
+</body>
+</html>
